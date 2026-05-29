@@ -45,9 +45,12 @@ Project documentation and reports:
 ## 🇵🇱 Wersja Polska
 
 
+
+## 📋 Wersja Polska
+
 ### Przegląd projektu
 
-Kompleksowy projekt analizy danych przeznaczony do badania prac dyplomowych oraz kierunków studiów na polskich uczelniach.
+Kompleksowy projekt analizy danych przeznaczony do badania prac dyplomowych na polskich uczelniach.
 
 ### Opis katalogów
 
@@ -55,46 +58,31 @@ Kompleksowy projekt analizy danych przeznaczony do badania prac dyplomowych oraz
 
 Przechowuje wszystkie zbiory danych wykorzystywane w projekcie:
 
-* Surowe dane pobrane z API i repozytoriów
-* Oczyszczone i przetworzone zestawy danych
-* Pliki CSV, JSON oraz XML
-* Metadane prac dyplomowych i danych uczelni
-
 #### **notebooks/**
 
-Notebooki Jupyter wykorzystywane do iteracyjnej eksploracji i analizy danych:
-
-* Wstępna eksploracja danych (EDA)
-* Eksperymenty z NLP i topic modeling
-* Testowanie wizualizacji
-* Analizy statystyczne i prototypowanie
+Notebooki Jupyter do iteracyjnej eksploracji i analizy danych:
 
 #### **scraping/**
 
 Narzędzia do automatycznego zbierania danych:
 
-* Integracje z API POL-on i ORPPD
-* Skrypty do web scrapingu stron uczelni
-* Harvestery OAI-PMH
-* Automatyczne pobieranie i aktualizacja danych
-
 #### **analysis/**
 
-Gotowe do użycia moduły Python zawierające główną logikę projektu:
+Gotowe do użycia moduły Python zawierające podstawową funkcjonalność:
 
 * Funkcje analizy statystycznej
-* Narzędzia do analizy tekstu i NLP
+* Narzędzia do analizy sekwencji
 * Pipeline’y przetwarzania danych
-* Wielokrotnego użytku komponenty analityczne
+* Komponenty analityczne wielokrotnego użytku
 
 #### **dashboard/**
 
 Interaktywna aplikacja webowa do wizualizacji danych:
 
 * Dashboard oparty na Streamlit do eksploracji danych w czasie rzeczywistym
-* Wiele widoków dla różnych analiz
+* Wiele stron dla różnych widoków analiz
 * Interaktywne wykresy i tabele
-* Zarządzanie konfiguracją i komponentami aplikacji
+* Zarządzanie konfiguracją i komponentami
 
 #### **docs/**
 
@@ -103,4 +91,3 @@ Dokumentacja projektu i raporty:
 * Dokumentacja metodologii
 * Podsumowanie wyników i wniosków
 * Wygenerowane wykresy oraz materiały dodatkowe
-* Opisy źródeł danych i architektury projektu
